@@ -1,0 +1,39 @@
+---
+title: "TBA"
+
+author: 
+    - Andrea Blasco (Harvard Business School)
+
+abstract: "Here goes the abstract." 
+date: 'Last updated: `r format(Sys.Date(), "%b %d, %Y")`'
+
+JEL:
+  - TBA
+
+keywords:
+  - TBA 
+
+titlepage: false 
+fontsize: 11pt
+fontfamily: mathpazo
+# linestretch: 1
+# citecolor: blue 
+# geometry: margin=1in
+# endfloat: true
+# bibliography: races.bib
+header-includes:
+  - \usepackage{bbm}
+  - \newcommand\hl{}
+  - \newcommand\Fig{Fig. XXXX}
+---
+
+```{r sections, echo=FALSE}
+childs <- "intro.rmd" 
+```
+
+```{r child=childs}
+```
+
+References
+==========
+
