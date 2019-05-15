@@ -2,13 +2,16 @@
 title: "TBA"
 
 author: 
-    - Andrea Blasco (Harvard Business School)
+    - Author 1
+    - Author 2
+    - ... 
 
 abstract: "Here goes the abstract." 
+
 date: 'Last updated: `r format(Sys.Date(), "%b %d, %Y")`'
 
-JEL:
-  - TBA
+# JEL:
+#   - TBA
 
 keywords:
   - TBA 
@@ -20,7 +23,7 @@ fontfamily: mathpazo
 # citecolor: blue 
 # geometry: margin=1in
 # endfloat: true
-# bibliography: races.bib
+# bibliography: references.bib
 header-includes:
   - \usepackage{bbm}
   - \newcommand\hl{}
